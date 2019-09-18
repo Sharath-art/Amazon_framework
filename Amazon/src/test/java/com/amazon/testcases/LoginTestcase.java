@@ -19,7 +19,7 @@ public class LoginTestcase extends BaseClass {
 	    logger.info("Starting Application");
 	    loginpage.LogintoAmazon(excel.getStringData("Login", 0, 0), excel.getStringData("Login", 0, 1) );
 	    helper.Capturescreenshot(driver);
-	    logger.info("User is able to login");
+	    logger.info("User is able to login- vickybaby");
 	    
 	    try {
 			Thread.sleep(3000);
