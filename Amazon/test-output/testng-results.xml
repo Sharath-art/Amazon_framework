@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30791" started-at="2019-09-12T21:31:30 IST" finished-at="2019-09-12T21:32:01 IST">
+  <suite name="Suite" duration-ms="32038" started-at="2019-09-18T15:30:57 IST" finished-at="2019-09-18T15:31:29 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30791" started-at="2019-09-12T21:31:30 IST" finished-at="2019-09-12T21:32:01 IST">
+    <test name="Test" duration-ms="32038" started-at="2019-09-18T15:30:57 IST" finished-at="2019-09-18T15:31:29 IST">
       <class name="com.amazon.testcases.LoginTestcase">
-        <test-method status="PASS" signature="SetupSuite()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="SetupSuite" is-config="true" duration-ms="780" started-at="2019-09-12T21:31:30 IST" finished-at="2019-09-12T21:31:30 IST">
+        <test-method status="PASS" signature="SetupSuite()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="SetupSuite" is-config="true" duration-ms="791" started-at="2019-09-18T15:30:56 IST" finished-at="2019-09-18T15:30:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupSuite -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="Setup" is-config="true" duration-ms="16239" started-at="2019-09-12T21:31:30 IST" finished-at="2019-09-12T21:31:47 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="Setup" is-config="true" duration-ms="17560" started-at="2019-09-18T15:30:57 IST" finished-at="2019-09-18T15:31:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="loginApp" duration-ms="11328" started-at="2019-09-12T21:31:47 IST" finished-at="2019-09-12T21:31:58 IST">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="loginApp" duration-ms="10934" started-at="2019-09-18T15:31:14 IST" finished-at="2019-09-18T15:31:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="teardownMethod" is-config="true" duration-ms="1853" started-at="2019-09-12T21:31:58 IST" finished-at="2019-09-12T21:32:00 IST">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="teardownMethod" is-config="true" duration-ms="2314" started-at="2019-09-18T15:31:25 IST" finished-at="2019-09-18T15:31:27 IST">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="Teardown" is-config="true" duration-ms="1321" started-at="2019-09-12T21:32:00 IST" finished-at="2019-09-12T21:32:01 IST">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.amazon.testcases.LoginTestcase@72b6cbcc]" name="Teardown" is-config="true" duration-ms="1170" started-at="2019-09-18T15:31:27 IST" finished-at="2019-09-18T15:31:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

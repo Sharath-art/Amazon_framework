@@ -14,6 +14,9 @@ public class LoginPage {
 	@FindBy(xpath = "//span[@class='nav-line-1' and text()='Hello. Sign in']") 
 	WebElement loginButton;
 	
+	@FindBy(xpath = "//span[@class='nav-action-inner' and text()='Sign in']")
+	WebElement Signin;
+	
 	@FindBy(id = "ap_email")
 	WebElement  UserName;
 	
@@ -26,9 +29,10 @@ public class LoginPage {
 	@FindBy(id = "signInSubmit")
 	WebElement SubmitButton;
 	
-	public void LogintoAmazon(String UserNametologin, String Passwordtologin) {
+	public void LogintoAmazon(String UserNametologin, String Passwordtologin) throws Exception {
 		
 		loginButton.click();
+		Signin.click();
 		UserName.sendKeys(UserNametologin);
 		ContinueButton.click();
 		Password.sendKeys(Passwordtologin);

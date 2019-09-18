@@ -63,12 +63,12 @@ public class BaseClass {
 		else if(result.getStatus()==ITestResult.SUCCESS)
 		{
 			helper.Capturescreenshot(driver);
-			logger.fail("Test case passed", MediaEntityBuilder.createScreenCaptureFromPath(helper.Capturescreenshot(driver)).build());
+			logger.pass("Test case passed", MediaEntityBuilder.createScreenCaptureFromPath(helper.Capturescreenshot(driver)).build());
 		}
 		else if(result.getStatus()==ITestResult.SKIP)
 		{
 			helper.Capturescreenshot(driver);
-			logger.fail("Test case skipped ", MediaEntityBuilder.createScreenCaptureFromPath(helper.Capturescreenshot(driver)).build());
+			logger.skip("Test case skipped ", MediaEntityBuilder.createScreenCaptureFromPath(helper.Capturescreenshot(driver)).build());
 		}
 		report.flush();
 	}
