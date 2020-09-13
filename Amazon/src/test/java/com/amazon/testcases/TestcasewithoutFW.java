@@ -48,5 +48,6 @@ public class TestcasewithoutFW extends BaseClass {
 		WebElement txtResourceName = driver.findElement(By.id("resourceName"));
 		logger.info("report page displayed");
 		wait.until(ExpectedConditions.visibilityOf(txtResourceName));
+		
 	}
 }
