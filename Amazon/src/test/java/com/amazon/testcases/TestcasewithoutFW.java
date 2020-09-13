@@ -49,6 +49,5 @@ public class TestcasewithoutFW extends BaseClass {
 		logger.info("report page displayed");
 		wait.until(ExpectedConditions.visibilityOf(txtResourceName));
 		
-		
 	}
 }
